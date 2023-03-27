@@ -1,0 +1,55 @@
+Sunday 26 March 2023 
+git config --global user.name "Paing"
+git config --global useremail "paingphyokyaw.ucsy@gmail.com
+
+git init =>change to git repo
+
+git status => see status
+
+git add filename.extension(all is .) => add to git
+
+git commit -m "Comment"(comment of version)
+git log => see git record
+git log --pretty=oneline
+
+git checkout id(version id) => go to other version
+git checkout master => go to lastest version
+
+git tag 0.0.1 => customize git id 
+
+
+Brach(for Save main code base)
+git branch(see current branch)
+git branch name_branch
+git checkout name_branch(change branch)
+
+---in master branch---
+git merge name_branch(merge to master)
+
+----------------------------------------------------------------------------
+
+***Git Clone***
+
+git clone ./projectFolderName(has been git init folder) CloneFolder
+git remote show origin(show original path)
+git pull origin(git remote show origin) master-> take data from original GitRepo
+git push origin master(send data to original GitRepo ) -> if not bare repo ,cannot set to origin
+
+---Bare
+	git init --bare(Only can commit in this folder)
+	
+	***Now can push to origin master
+	
+	git push origin master
+	git pull origin master
+	
+	git commit -am "updated commit" (has been commited file)//conflict
+	
+	
+	readme.md(make down)
+	
+	git remote show origin
+	git remote remove origin
+	git remote add origin "path"
+	
+	*****git pull origin master --allow-unrelated-histories
