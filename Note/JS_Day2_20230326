@@ -1,0 +1,86 @@
+Literal
+	immediate value(2,3,"hello",false,value,directly write by programmer)
+	constant
+	
+	-----------------------------------------------------
+	identifier(can give name all-legal)
+		-can start with(letter,_,$)
+		-Subsequent characters(letter,digit,_,$) 
+		-CaseSensative
+		-camelCalse(smallCapital)
+	
+	reserved word(identifier that used by program)Keyword
+	
+	keyword use in now
+	reserved word use in next time
+	
+	cannot use (arguments and eval)
+	cannot use (keyword and reserved word)
+	
+	-------------------------
+	
+	let a = "Hello";
+	let is one token in compiler(because of being basic element)
+
+	ASI(automatic semicolon intension->Optional semicolon)
+
+------------------------------------------------------------------
+Arithmetic operator(+, -, *, %, /)
+
+Variable(Store value for use)
+
+type in value-associate(Dynameic type)
+type in variable-associate(static type)
+
+Type
+	set of possible value
+	decide operation
+	
+	Primitive type
+		cannot divided(basic data type)
+		-number(continue NaN)(JavaScript number Type->flexical type)
+			-call integral type(constant number)
+			-call floating point type(decimal point)
+			--->NaN is the return value from operations which have an undefined numerical result(so NUMBER TYPE)->invalid operation (NaN)
+				-decimal point number(can not give exactly value in operation ->has limitation in computer)
+				-approximate(if need exactly use library)
+				-irrational number(PI)
+		-String(call text)(only one alphabet call as character)
+			char(65) => A
+		-boolean
+		-null  => typeof(null) //object
+		-undefinded
+		-symbol
+		-bigInt(release in ES2020)
+			-ECMAScript ->  European Computer Manufacturer's Association
+		
+	object type
+		collect primitive type
+		eg-
+			let obj = {
+				name: "PPK",
+				age: 28,
+				};
+							
+	--------------------------------	
+	
+
+
+	---------------------------------------------------------------
+
+	ieee754
+
+	-------------------------------------------
+
+	polar(degree and radius) vs cartesian coordinates(x,y)
+	
+	-----------------------
+
+	Rounding error
+		-(0.2 - 0.3 = -0.9999998)
+		-to solve (use decimal library -eg.decimal.js)
+
+--------------------------
+Escape (\n)
+
+interpolation(`${num}`);

@@ -1,0 +1,6 @@
+gnome-extensions enable ubuntu-dock@ubuntu.com
+sudo tlp start
+Lenovo-ideapad-330-15AST
+alias chrome='google-chrome'
+sudo gedit /etc/default/grub
+

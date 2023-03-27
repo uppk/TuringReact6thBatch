@@ -1,0 +1,100 @@
+Backend
+	Express.js
+	Node.js
+Frondend
+	TypeScript
+	React
+	Redux
+	
+---------------------------------------------------------
+JavaScript
+	Frontend
+		Mobile App
+		Web App
+	BackEnd
+		JavaScript Node.js
+		Go
+		Java
+		PHP
+		Python
+	Mobile App
+		Android
+		IOS
+		ReactNative(JS)
+	Desktop App
+	
+	Cloud App
+		SASS(software as a service)
+		up on Cloud(upload on server-eg-meta)
+	
+-------------------------
+
+JavaSrcript
+	Frontend
+	Backend
+	Mobile
+	
+------------------------
+
+Browser
+	Client server computing(Client Server architecture-
+				Client request to Service & service response to Client) 
+	
+	webbrower(client)
+	
+	Client(use Service)
+	Service(host Service)
+	
+	Protocol(computer talk to another on network-eg(http))with rule
+		-nc www.google.com 80
+		-GET / HTTP/1.0
+	
+---------------------
+
+Script Language
+	depend on other(eg.Browser)
+	write as short
+	
+------------
+
+Lexeme (basic unit of language(A,B,C in English)
+	a basic lexical unit of a language consisting of one word or several words, the elements of which do not separately convey the meaning of the whole.
+	
+-------------------------------------------
+Lexical structure(basic data_structure of PL)
+	"String"
+	'String'
+	`String`
+
+-------------------------------------------
+
+Node.js(Chrome engine(V8-js interpreter))
+
+-----------------------------------
+
+nc(netcap )
+nc www.google.com 80
+GET / HTTP/1.0
+
+-------------------------------------
+Browser
+	Rendering Engine(HTML,CSS => UI element,icon,button)-Blink
+	Browser engine(networking,brower UI,plug in manage)-chrome V8
+	JS Engine(Run JavaScript)
+	
+----------------------------
+
+OS run on CPU
+
+---------------------------
+
+Compiler
+	Source code => Machine code
+	C,C++,Go
+	
+	Source code => byte code => Virtual Machine => Real Machine
+	Java,C#
+	 
+	Interpreter
+	Source code,run on the fly(interpreter)  => Machine code
+	JS,Python
