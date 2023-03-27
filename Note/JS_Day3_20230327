@@ -1,0 +1,95 @@
+API (application programming interface)
+
+
++ (string concat)
+
+String
+	-change tempory wrapper object
+	
+	str.substring(0,4) -> library(api)
+	
+	----------------------
+	
+template literal
+	`one line
+	two line
+	`
+
+	
+	string.raw`\n`
+
+	---------------------
+	
+	ture = !false//reverse (!)
+	
+	false
+		0
+		-0
+		NaN
+		null
+		undefined
+		""
+		false
+		
+		
+call empty is undefined
+
+only assign null is null
+
+Is same symbol vs const
+
+global obj in window
+
+
+window(global obj)
+---------------
+isNaN = window.NaN
+
+primitive data type (immutable because of copy sematics-> cannot modefiled)
+object data type (mutable because of reference address)
+
+***wrapper obj (sir reference)-(me copy)
+
+
+----------------------------
+Type conversion
+
+Primitive Type
+Has Automatic conversion
+	let data = "5";
+	data = data + 10;//data + toString(10);
+	
+	data = "2" * "3";//6
+	
+	Any Type => String // ( + '')
+	Any Type => Number //(+)
+		console.log("Convet ot Nan", + "9" + typeof(+"9"));//9
+		console.log("Convet ot Nan", + "" + typeof(+""));//0
+		console.log(+"str");//NaN
+		console.log(+null);//0
+		console.log(+undefined);//NaN
+		
+---------------------------------------
+
+Object Type(first find valueOf second toString)
+
+toString:function(){
+}
+valueOf:function(){
+}
+
+let obj3 = {
+    name: "ppk",
+    age: 18,
+valueOf:function(){
+    console.log("Value");
+    return 10;//only primitive
+},
+toSting:function(){
+    console.log("toString");
+    return 'Object';//only primitive
+}
+}
+
+console.log("Obj ", +obj3);
+

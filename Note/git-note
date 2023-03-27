@@ -53,3 +53,5 @@ git push origin master(send data to original GitRepo ) -> if not bare repo ,cann
 	git remote add origin "path"
 	
 	*****git pull origin master --allow-unrelated-histories
+	
+	 git remote -v
